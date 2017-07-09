@@ -1,0 +1,32 @@
+import java.util.Scanner;
+class arrayex
+{
+int num[];
+
+public void accept()
+{
+int n;
+num[]=new num[n];
+scanner sc=new Scanner(System.in);
+n=sc.nextInt();
+for(int i=0;i<n;i++)
+{num[i]=sc.nextInt();
+}
+public void display(int sum)
+{
+int average;
+for(int i=0;i<num.length;i++)
+{
+sum=sum+num[i];
+}
+average=sum/n;
+System.out.println(average);
+}
+public static void main(System.in)
+{
+arrayex a1=new arrayex();
+a1.accept();
+a2.display(0);
+}}
+
+
